@@ -1,0 +1,9 @@
+*-bak
+*.net
+*-cache.lib
+*.gbr
+*.drl
+*.gbrjob
+_autosave*
+fp-info-cache
+*.pdf
