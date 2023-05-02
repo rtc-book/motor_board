@@ -23,7 +23,7 @@ F 2 "motor_board:ESCON_24-2" H 9950 1950 50  0001 C CNN
 F 3 "" H 9950 1950 50  0001 C CNN
 F 4 "S7009-ND, S7011-ND" H 9950 1950 50  0001 C CNN "DigiKey P/N"
 	1    9950 1950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 NoConn ~ 10400 1500
 NoConn ~ 10400 1600
@@ -44,8 +44,8 @@ F 0 "#PWR0101" H 10550 750 50  0001 C CNN
 F 1 "GNDPWR" H 10554 796 50  0000 C CNN
 F 2 "" H 10550 900 50  0001 C CNN
 F 3 "" H 10550 900 50  0001 C CNN
-	1    10550 950
-	1    0    0    -1
+	1    10550 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR0102
@@ -56,23 +56,23 @@ F 1 "GNDA" H 8855 1477 50  0000 C CNN
 F 2 "" H 8850 1650 50  0001 C CNN
 F 3 "" H 8850 1650 50  0001 C CNN
 	1    8850 1650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 8950 1050 0    50   ~ 0
 CUR
 Text Label 8800 1500 0    50   ~ 0
 PWM
 Wire Wire Line
-	9900 1100 9900 850
+	9900 1100 9900 850 
 Wire Wire Line
-	9900 850  10100 850
+	9900 850  10100 850 
 Wire Wire Line
-	10550 850  10550 950
+	10550 850  10550 950 
 Wire Wire Line
-	10100 1100 10100 850
-Connection ~ 10100 850
+	10100 1100 10100 850 
+Connection ~ 10100 850 
 Wire Wire Line
-	10100 850  10550 850
+	10100 850  10550 850 
 $Comp
 L Device:CP C1
 U 1 1 633EFA4B
@@ -83,7 +83,7 @@ F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 6688 900 50  0001 C CNN
 F 3 "~" H 6650 1050 50  0001 C CNN
 F 4 "732-8943-1-ND" H 6650 1050 50  0001 C CNN "DigiKey P/N"
 	1    6650 1050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR0103
@@ -94,7 +94,7 @@ F 1 "GNDPWR" H 7104 1196 50  0000 C CNN
 F 2 "" H 7100 1300 50  0001 C CNN
 F 3 "" H 7100 1300 50  0001 C CNN
 	1    7100 1350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Schottky D2
@@ -106,7 +106,7 @@ F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 7100 1050 50  0001 C CNN
 F 3 "~" H 7100 1050 50  0001 C CNN
 F 4 "P6KE200ALFCT-ND" H 7100 1050 50  0001 C CNN "DigiKey P/N"
 	1    7100 1050
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GNDPWR #PWR0104
@@ -117,21 +117,21 @@ F 1 "GNDPWR" H 6654 1196 50  0000 C CNN
 F 2 "" H 6650 1300 50  0001 C CNN
 F 3 "" H 6650 1300 50  0001 C CNN
 	1    6650 1350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6650 1200 6650 1350
 Wire Wire Line
 	7100 1200 7100 1350
 Wire Wire Line
-	7100 900  7100 800
+	7100 900  7100 800 
 Wire Wire Line
 	9800 800  9800 1100
 Wire Wire Line
-	6650 900  6650 800
+	6650 900  6650 800 
 Wire Wire Line
-	6650 800  7100 800
-Connection ~ 7100 800
+	6650 800  7100 800 
+Connection ~ 7100 800 
 $Comp
 L Device:Fuse F1
 U 1 1 633F5727
@@ -141,16 +141,16 @@ F 1 "4A" V 6194 800 50  0000 C CNN
 F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 6230 800 50  0001 C CNN
 F 3 "~" H 6300 800 50  0001 C CNN
 F 4 "0617004.MXP-ND, 732-11376-ND" H 6300 800 50  0001 C CNN "DigiKey P/N"
-	1    6300 800
-	0    1    1    0
+	1    6300 800 
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6450 800  6650 800
-Connection ~ 6650 800
+	6450 800  6650 800 
+Connection ~ 6650 800 
 Text GLabel 5950 800  0    50   Input ~ 0
 VBUS
 Wire Wire Line
-	5950 800  6150 800
+	5950 800  6150 800 
 $Comp
 L Device:C C4
 U 1 1 633F6AC0
@@ -161,7 +161,7 @@ F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 9638 3200 50  000
 F 3 "~" H 9600 3350 50  0001 C CNN
 F 4 "478-10987-1-ND" H 9600 3350 50  0001 C CNN "DigiKey P/N"
 	1    9600 3350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C5
@@ -173,7 +173,7 @@ F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 9188 3450 50  0001 C CNN
 F 3 "~" H 9150 3600 50  0001 C CNN
 F 4 "BC2681CT-ND" H 9150 3600 50  0001 C CNN "DigiKey P/N"
 	1    9150 3600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C2
@@ -185,7 +185,7 @@ F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 10588 3450 50  0001 C CNN
 F 3 "~" H 10550 3600 50  0001 C CNN
 F 4 "BC2681CT-ND" H 10550 3600 50  0001 C CNN "DigiKey P/N"
 	1    10550 3600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C3
@@ -197,7 +197,7 @@ F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 10188 3200 50  00
 F 3 "~" H 10150 3350 50  0001 C CNN
 F 4 "478-10987-1-ND" H 10150 3350 50  0001 C CNN "DigiKey P/N"
 	1    10150 3350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R2
@@ -209,7 +209,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9530 3900 
 F 3 "~" H 9600 3900 50  0001 C CNN
 F 4 "560WCT-ND" H 9600 3900 50  0001 C CNN "DigiKey P/N"
 	1    9600 3900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
@@ -221,7 +221,7 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10080 3900
 F 3 "~" H 10150 3900 50  0001 C CNN
 F 4 "560WCT-ND" H 10150 3900 50  0001 C CNN "DigiKey P/N"
 	1    10150 3900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR0105
@@ -232,7 +232,7 @@ F 1 "GNDPWR" H 10354 4146 50  0000 C CNN
 F 2 "" H 10350 4250 50  0001 C CNN
 F 3 "" H 10350 4250 50  0001 C CNN
 	1    10350 4300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR0106
@@ -243,7 +243,7 @@ F 1 "GNDPWR" H 9404 4096 50  0000 C CNN
 F 2 "" H 9400 4200 50  0001 C CNN
 F 3 "" H 9400 4200 50  0001 C CNN
 	1    9400 4250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9600 3500 9600 3750
@@ -313,7 +313,7 @@ F 2 "motor_board:C_Connector" H 2850 3350 50  0001 C CNN
 F 3 "" H 2850 3350 50  0001 C CNN
 F 4 "ED3077-ND" H 1400 2150 50  0001 C CNN "DigiKey P/N"
 	1    1400 2150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR0107
@@ -324,7 +324,7 @@ F 1 "GNDA" H 2355 1677 50  0000 C CNN
 F 2 "" H 2350 1850 50  0001 C CNN
 F 3 "" H 2350 1850 50  0001 C CNN
 	1    2350 1850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1700 1400 2350 1400
@@ -344,7 +344,7 @@ F 1 "GNDD" H 2354 2995 50  0000 C CNN
 F 2 "" H 2350 3150 50  0001 C CNN
 F 3 "" H 2350 3150 50  0001 C CNN
 	1    2350 3150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1700 3000 2350 3000
@@ -428,7 +428,7 @@ F 2 "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 10250 5650 50
 F 3 " ~" H 10250 5650 50  0001 C CNN
 F 4 "2057-RF1-01K-D-00-50-BK-HDW-ND" H 10250 5650 50  0001 C CNN "DigiKey P/N"
 	1    10250 5650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR0109
@@ -439,7 +439,7 @@ F 1 "GNDA" H 10255 5827 50  0000 C CNN
 F 2 "" H 10250 6000 50  0001 C CNN
 F 3 "" H 10250 6000 50  0001 C CNN
 	1    10250 6000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	10250 5850 10250 6000
@@ -457,7 +457,7 @@ F 2 "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 8850 5800 50 
 F 3 " ~" H 8850 5800 50  0001 C CNN
 F 4 "2057-RF1-01K-D-00-50-BK-HDW-ND" H 8850 5800 50  0001 C CNN "DigiKey P/N"
 	1    8850 5800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 8350 5800 0    50   ~ 0
 AI0+
@@ -479,7 +479,7 @@ F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 1500 7050 50  0001 C CNN
 F 3 "~" H 1500 7050 50  0001 C CNN
 F 4 "CKN9093-ND" H 1500 6850 50  0001 C CNN "DigiKey P/N"
 	1    1500 6850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 950  6850 0    50   ~ 0
 BUT1
@@ -499,7 +499,7 @@ F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 1500 7500 50  0001 C CNN
 F 3 "~" H 1500 7500 50  0001 C CNN
 F 4 "CKN9093-ND" H 1500 7300 50  0001 C CNN "DigiKey P/N"
 	1    1500 7300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 950  7300 0    50   ~ 0
 BUT2
@@ -519,7 +519,7 @@ F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 1150 4800 50 
 F 3 "~" H 1150 4800 50  0001 C CNN
 F 4 "S7006-ND" H 1150 4800 50  0001 C CNN "DigiKey P/N"
 	1    1150 4800
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Text Label 1700 4800 2    50   ~ 0
 +15V
@@ -538,7 +538,7 @@ F 1 "GNDA" H 1955 4927 50  0000 C CNN
 F 2 "" H 1950 5100 50  0001 C CNN
 F 3 "" H 1950 5100 50  0001 C CNN
 	1    1950 5100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDD #PWR01
@@ -549,7 +549,7 @@ F 1 "GNDD" H 1954 4595 50  0000 C CNN
 F 2 "" H 1950 4750 50  0001 C CNN
 F 3 "" H 1950 4750 50  0001 C CNN
 	1    1950 4750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1350 4600 1950 4600
@@ -585,7 +585,7 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3800 1050 50 
 F 3 "~" H 3800 1050 50  0001 C CNN
 F 4 "2057-PH1-05-UA-ND" H 3800 1050 50  0001 C CNN "DigiKey P/N"
 	1    3800 1050
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J5
@@ -597,7 +597,7 @@ F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-5.0-H_1x04_P5.00mm_Hor
 F 3 "~" H 5450 3050 50  0001 C CNN
 F 4 "102-6136-ND" H 5450 3050 50  0001 C CNN "DigiKey P/N"
 	1    5450 3050
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GNDD #PWR03
@@ -608,7 +608,7 @@ F 1 "GNDD" H 4004 1245 50  0000 C CNN
 F 2 "" H 4000 1400 50  0001 C CNN
 F 3 "" H 4000 1400 50  0001 C CNN
 	1    4000 1400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 4250 1750 2    50   ~ 0
 ENC0.A
@@ -627,7 +627,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3980 2050 
 F 3 "~" H 4050 2050 50  0001 C CNN
 F 4 "CF18JT2K70CT-ND" H 4050 2050 50  0001 C CNN "DigiKey P/N"
 	1    4050 2050
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	3900 2050 3800 2050
@@ -654,7 +654,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3280 1700 
 F 3 "~" H 3350 1700 50  0001 C CNN
 F 4 "CF18JT2K70CT-ND" H 3350 1700 50  0001 C CNN "DigiKey P/N"
 	1    3350 1700
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	3500 1700 3600 1700
@@ -683,7 +683,7 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3900 2600 50 
 F 3 "~" H 3900 2600 50  0001 C CNN
 F 4 "2057-PH1-05-UA-ND" H 3900 2600 50  0001 C CNN "DigiKey P/N"
 	1    3900 2600
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L power:GNDD #PWR04
@@ -694,7 +694,7 @@ F 1 "GNDD" H 4104 2795 50  0000 C CNN
 F 2 "" H 4100 2950 50  0001 C CNN
 F 3 "" H 4100 2950 50  0001 C CNN
 	1    4100 2950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 4350 3300 2    50   ~ 0
 ENC1.A
@@ -713,7 +713,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4080 3600 
 F 3 "~" H 4150 3600 50  0001 C CNN
 F 4 "CF18JT2K70CT-ND" H 4150 3600 50  0001 C CNN "DigiKey P/N"
 	1    4150 3600
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4000 3600 3900 3600
@@ -740,7 +740,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3380 3250 
 F 3 "~" H 3450 3250 50  0001 C CNN
 F 4 "CF18JT2K70CT-ND" H 3450 3250 50  0001 C CNN "DigiKey P/N"
 	1    3450 3250
-	0    -1   1    0
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	3600 3250 3700 3250
@@ -787,7 +787,7 @@ F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Hor
 F 3 "~" H 6900 3600 50  0001 C CNN
 F 4 "102-6134-ND" H 6900 3600 50  0001 C CNN "DigiKey P/N"
 	1    6900 3600
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Text Label 7350 3600 2    50   ~ 0
 M+
@@ -807,7 +807,7 @@ F 2 "motor_board:Encoder_and_Motor_Mount" H 5550 1100 50  0001 C CNN
 F 3 "~" H 5550 1100 50  0001 C CNN
 F 4 "S6103-ND" H 5550 1100 50  0001 C CNN "DigiKey P/N"
 	1    5550 1100
-	0    1    -1   0
+	0    1    -1   0   
 $EndComp
 $Comp
 L power:GNDD #PWR0110
@@ -818,7 +818,7 @@ F 1 "GNDD" H 5754 1295 50  0000 C CNN
 F 2 "" H 5750 1450 50  0001 C CNN
 F 3 "" H 5750 1450 50  0001 C CNN
 	1    5750 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 6000 1800 2    50   ~ 0
 ENC0.A
@@ -854,7 +854,7 @@ F 1 "GNDPWR" H 7554 2696 50  0000 C CNN
 F 2 "" H 7550 2800 50  0001 C CNN
 F 3 "" H 7550 2800 50  0001 C CNN
 	1    7550 2850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7550 2700 7550 2850
@@ -870,7 +870,7 @@ F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 7050 2560 50  0001 C CNN
 F 3 "~" H 7050 2560 50  0001 C CNN
 F 4 "839-54-00167-ND" H 7000 2600 50  0001 C CNN "DigiKey P/N"
 	1    7000 2600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 NoConn ~ 7300 2600
 $Comp
@@ -882,7 +882,7 @@ F 1 "GNDPWR" H 5904 3246 50  0000 C CNN
 F 2 "" H 5900 3350 50  0001 C CNN
 F 3 "" H 5900 3350 50  0001 C CNN
 	1    5900 3400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5900 3250 5900 3400
@@ -898,7 +898,7 @@ F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 8400 1750 50  0001 C CNN
 F 3 "~" H 8400 1750 50  0001 C CNN
 F 4 "13-P6KE62A/B-ND" H 8400 1750 50  0001 C CNN "DigiKey P/N"
 	1    8400 1750
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	8400 1500 8400 1600
@@ -911,7 +911,7 @@ F 1 "GNDA" H 8405 1777 50  0000 C CNN
 F 2 "" H 8400 1950 50  0001 C CNN
 F 3 "" H 8400 1950 50  0001 C CNN
 	1    8400 1950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8400 1950 8400 1900
@@ -924,7 +924,7 @@ F 1 "GNDA" H 8205 1227 50  0000 C CNN
 F 2 "" H 8200 1400 50  0001 C CNN
 F 3 "" H 8200 1400 50  0001 C CNN
 	1    8200 1400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8200 1400 8200 1250
@@ -938,7 +938,7 @@ F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 7750 1300 50  0001 C CNN
 F 3 "~" H 7750 1300 50  0001 C CNN
 F 4 "13-P6KE62A/B-ND" H 7750 1300 50  0001 C CNN "DigiKey P/N"
 	1    7750 1300
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7750 1050 7750 1150
@@ -951,12 +951,12 @@ F 1 "GNDA" H 7755 1327 50  0000 C CNN
 F 2 "" H 7750 1500 50  0001 C CNN
 F 3 "" H 7750 1500 50  0001 C CNN
 	1    7750 1500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7750 1500 7750 1450
 Wire Wire Line
-	7100 800  9800 800
+	7100 800  9800 800 
 $Comp
 L Connector:Conn_Coaxial J2
 U 1 1 64495400
@@ -967,7 +967,7 @@ F 2 "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 7550 5750 50 
 F 3 " ~" H 7550 5750 50  0001 C CNN
 F 4 "2057-RF1-01K-D-00-50-BK-HDW-ND" H 7550 5750 50  0001 C CNN "DigiKey P/N"
 	1    7550 5750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 7100 5750 0    50   ~ 0
 PWM
@@ -980,7 +980,7 @@ F 1 "GNDA" H 7555 5877 50  0000 C CNN
 F 2 "" H 7550 6050 50  0001 C CNN
 F 3 "" H 7550 6050 50  0001 C CNN
 	1    7550 6050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7550 5950 7550 6050
@@ -995,7 +995,7 @@ F 1 "Jumper_2_Bridged" H 8800 2904 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8800 2800 50  0001 C CNN
 F 3 "~" H 8800 2800 50  0001 C CNN
 	1    8800 2800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9000 2800 9250 2800
@@ -1011,17 +1011,6 @@ Text Label 8300 2800 0    50   ~ 0
 +5
 Wire Wire Line
 	8300 2800 8600 2800
-$Comp
-L Connector:TestPoint TP1
-U 1 1 644F03BC
-P 8850 2150
-F 0 "TP1" V 9045 2222 50  0000 C CNN
-F 1 "TestPoint" V 8954 2222 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9050 2150 50  0001 C CNN
-F 3 "~" H 9050 2150 50  0001 C CNN
-	1    8850 2150
-	0    -1   -1   0
-$EndComp
 Wire Wire Line
 	9400 1050 9400 1500
 Wire Wire Line
@@ -1048,19 +1037,6 @@ Wire Wire Line
 	9050 1600 9050 1800
 Wire Wire Line
 	9050 1800 9500 1800
-$Comp
-L Connector:TestPoint TP2
-U 1 1 6458BB1D
-P 8850 2450
-F 0 "TP2" V 9045 2522 50  0000 C CNN
-F 1 "TestPoint" V 8954 2522 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9050 2450 50  0001 C CNN
-F 3 "~" H 9050 2450 50  0001 C CNN
-	1    8850 2450
-	0    -1   -1   0
-$EndComp
-Wire Wire Line
-	8850 2150 9050 2150
 Wire Wire Line
 	9050 2150 9050 1900
 Wire Wire Line
@@ -1068,21 +1044,35 @@ Wire Wire Line
 Wire Wire Line
 	9500 2000 9150 2000
 Wire Wire Line
-	9150 2000 9150 2450
-Wire Wire Line
-	9150 2450 8850 2450
+	9150 2000 9150 2250
 $Comp
-L Connector:TestPoint TP3
-U 1 1 645D42E2
-P 10750 850
-F 0 "TP3" V 10945 922 50  0000 C CNN
-F 1 "TestPoint" V 10854 922 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 10950 850 50  0001 C CNN
-F 3 "~" H 10950 850 50  0001 C CNN
-	1    10750 850
-	0    1    -1   0
+L Connector_Generic:Conn_01x03 J13
+U 1 1 64511011
+P 8700 2250
+F 0 "J13" H 8618 2567 50  0000 C CNN
+F 1 "Conn_01x03" H 8618 2476 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8700 2250 50  0001 C CNN
+F 3 "~" H 8700 2250 50  0001 C CNN
+	1    8700 2250
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	10750 850  10550 850
-Connection ~ 10550 850
+	9050 2150 8900 2150
+Wire Wire Line
+	8900 2250 9150 2250
+$Comp
+L power:GNDPWR #PWR0116
+U 1 1 6454356F
+P 9050 2400
+F 0 "#PWR0116" H 9050 2200 50  0001 C CNN
+F 1 "GNDPWR" H 9054 2246 50  0000 C CNN
+F 2 "" H 9050 2350 50  0001 C CNN
+F 3 "" H 9050 2350 50  0001 C CNN
+	1    9050 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 2350 9050 2350
+Wire Wire Line
+	9050 2350 9050 2400
 $EndSCHEMATC
