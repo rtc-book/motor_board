@@ -1042,10 +1042,10 @@ Wire Wire Line
 Wire Wire Line
 	5950 4950 6200 4950
 $Comp
-L Connector:Conn_Coaxial J16
+L Connector:Conn_Coaxial J4
 U 1 1 64520417
 P 9100 4850
-F 0 "J16" H 9200 4825 50  0000 L CNN
+F 0 "J4" H 9200 4825 50  0000 L CNN
 F 1 "BNC" H 9200 4734 50  0000 L CNN
 F 2 "motor_board:Vertical_BNC_Amphenol_112536" H 9100 4850 50  0001 C CNN
 F 3 " ~" H 9100 4850 50  0001 C CNN
@@ -1054,10 +1054,10 @@ F 4 "ACX1053-ND" H 9100 4850 50  0001 C CNN "DigiKey P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J15
+L Connector:Conn_Coaxial J3
 U 1 1 64520427
 P 7700 5000
-F 0 "J15" H 7800 4975 50  0000 L CNN
+F 0 "J3" H 7800 4975 50  0000 L CNN
 F 1 "BNC" H 7800 4884 50  0000 L CNN
 F 2 "motor_board:Vertical_BNC_Amphenol_112536" H 7700 5000 50  0001 C CNN
 F 3 " ~" H 7700 5000 50  0001 C CNN
@@ -1066,95 +1066,15 @@ F 4 "ACX1053-ND" H 7700 5000 50  0001 C CNN "DigiKey P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J14
+L Connector:Conn_Coaxial J2
 U 1 1 64520433
 P 6400 4950
-F 0 "J14" H 6500 4925 50  0000 L CNN
+F 0 "J2" H 6500 4925 50  0000 L CNN
 F 1 "BNC" H 6500 4834 50  0000 L CNN
 F 2 "motor_board:Vertical_BNC_Amphenol_112536" H 6400 4950 50  0001 C CNN
 F 3 " ~" H 6400 4950 50  0001 C CNN
 F 4 "ACX1053-ND" H 6400 4950 50  0001 C CNN "DigiKey P/N"
 	1    6400 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9800 5500 9500 5500
-Text Label 9500 5500 0    50   ~ 0
-AO1
-Wire Wire Line
-	10000 5700 10000 5850
-$Comp
-L power:GNDA #PWR0109
-U 1 1 63444AD1
-P 10000 5850
-F 0 "#PWR0109" H 10000 5600 50  0001 C CNN
-F 1 "GNDA" H 10005 5677 50  0000 C CNN
-F 2 "" H 10000 5850 50  0001 C CNN
-F 3 "" H 10000 5850 50  0001 C CNN
-	1    10000 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_Coaxial J4
-U 1 1 6344045E
-P 10000 5500
-F 0 "J4" H 10100 5475 50  0000 L CNN
-F 1 "BNC" H 10100 5384 50  0000 L CNN
-F 2 "motor_board:Vertical_BNC_Molex_73131-5003" H 10000 5500 50  0001 C CNN
-F 3 " ~" H 10000 5500 50  0001 C CNN
-F 4 "WM5379-ND" H 10000 5500 50  0001 C CNN "DigiKey P/N"
-	1    10000 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6850 5600 7100 5600
-Wire Wire Line
-	7300 5800 7300 5900
-$Comp
-L power:GNDA #PWR0115
-U 1 1 644A0A10
-P 7300 5900
-F 0 "#PWR0115" H 7300 5650 50  0001 C CNN
-F 1 "GNDA" H 7305 5727 50  0000 C CNN
-F 2 "" H 7300 5900 50  0001 C CNN
-F 3 "" H 7300 5900 50  0001 C CNN
-	1    7300 5900
-	1    0    0    -1  
-$EndComp
-Text Label 6850 5600 0    50   ~ 0
-PWM
-$Comp
-L Connector:Conn_Coaxial J2
-U 1 1 64495400
-P 7300 5600
-F 0 "J2" H 7400 5575 50  0000 L CNN
-F 1 "BNC" H 7400 5484 50  0000 L CNN
-F 2 "motor_board:Vertical_BNC_Molex_73131-5003" H 7300 5600 50  0001 C CNN
-F 3 " ~" H 7300 5600 50  0001 C CNN
-F 4 "WM5379-ND" H 7300 5600 50  0001 C CNN "DigiKey P/N"
-	1    7300 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 5950 8600 5950
-Wire Wire Line
-	8600 5850 8600 5950
-Wire Wire Line
-	8400 5650 8100 5650
-Text Label 8100 5950 0    50   ~ 0
-AI0-
-Text Label 8100 5650 0    50   ~ 0
-AI0+
-$Comp
-L Connector:Conn_Coaxial J3
-U 1 1 6345038A
-P 8600 5650
-F 0 "J3" H 8700 5625 50  0000 L CNN
-F 1 "BNC" H 8700 5534 50  0000 L CNN
-F 2 "motor_board:Vertical_BNC_Molex_73131-5003" H 8600 5650 50  0001 C CNN
-F 3 " ~" H 8600 5650 50  0001 C CNN
-F 4 "WM5379-ND" H 8600 5650 50  0001 C CNN "DigiKey P/N"
-	1    8600 5650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

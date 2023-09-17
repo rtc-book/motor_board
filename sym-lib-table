@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name motor_board)(type Legacy)(uri ${KIPRJMOD}/motor_board.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "motor_board")(type "Legacy")(uri "${KIPRJMOD}/motor_board.lib")(options "")(descr ""))
+  (lib (name "motor_board-rescue")(type "KiCad")(uri "${KIPRJMOD}/motor_board-rescue.kicad_sym")(options "")(descr ""))
 )

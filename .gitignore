@@ -7,3 +7,6 @@
 _autosave*
 fp-info-cache
 *.pdf
+*-backups
+*.kicad_prl
+*-rescue.*
