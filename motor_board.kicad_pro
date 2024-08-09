@@ -48,7 +48,13 @@
           "min_clearance": 0.254
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -166,8 +172,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -596,6 +609,22 @@
       {
         "netclass": "Motor Power",
         "pattern": "Net-(C1-Pad1)"
+      },
+      {
+        "netclass": "Input Power",
+        "pattern": "Net-(J5-Pin_2)"
+      },
+      {
+        "netclass": "Input Power",
+        "pattern": "Net-(J5-Pin_1)"
+      },
+      {
+        "netclass": "Input Power",
+        "pattern": "Net-(D2-K)"
+      },
+      {
+        "netclass": "Motor Power",
+        "pattern": "Net-(J10-M?)"
       }
     ]
   },
@@ -635,7 +664,7 @@
     },
     "net_format_name": "Pcbnew",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
