@@ -12,3 +12,4 @@ fp-info-cache
 *-rescue.*
 *.png
 *.lck
+?auto_saved_files?
