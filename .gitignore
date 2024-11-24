@@ -13,3 +13,4 @@ fp-info-cache
 *.png
 *.lck
 ?auto_saved_files?
+*.xml
